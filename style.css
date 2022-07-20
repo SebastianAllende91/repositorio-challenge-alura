@@ -1,0 +1,548 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F5F5F5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.header-logo {
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.header-logo__image {
+    height: 25px;
+}
+
+.header-logo__text {
+    font-size: 19px;
+    margin-left: 8px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 653px;
+}
+
+.header-list__item {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-hero {
+    display: flex;
+    height: 368px;
+}
+
+.container-hero__info {
+    width: 70%;
+}
+
+.container-hero__info h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.container-hero__info p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 95%;
+}
+
+.container-hero__info-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.container-hero__info-list a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+.container-hero__image {
+    width: 30%;
+}
+
+.container-hero__image img {
+    height: 368px;
+    border-radius: 40%
+}
+
+.sobre-mi {
+    background-color: #EAF2FD;
+    margin-top: 70px;
+    padding: 64px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sobre-mi p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    size: 16px;
+    width: 751px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-item {
+    width: 176px;
+    height: 174px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+
+.skills-item img {
+    width: 24px;
+    height: 28px;
+}
+
+.hobbies {
+    margin-top: 50px;
+}
+
+.hobbies h2 {
+    text-align: center;
+}
+
+.container-hobbies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies-item {
+    width: 176px;
+    height: 174px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 8px;
+}
+
+.hobbies-item img {
+    width: 24px;
+    height: 28px;
+}
+
+.formacion {
+    background-color: #EAF2FD;
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 62px 0;
+}
+
+.formacion h2 {
+    text-align: center;
+}
+
+.formacion-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacion-item {
+    width: 290px;
+}
+
+.formacion-item__image {
+    background-color: white;
+    width: 192px;
+    height: 130px;
+    padding: 16px;
+}
+
+.formacion-item p {
+    color: #464646;
+    margin: 0;
+}
+
+.proyectos {
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 62px 0;
+}
+
+.proyectos h2 {
+    text-align: center;
+
+}
+
+.container-proyecto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.proyecto-imagen {
+    width: 70%;
+}
+
+.proyecto-imagen img {
+    width: 100%;
+}
+
+.proyecto-contenido h3 {
+    margin: 5px 0;
+}
+
+.proyecto-contenido p {
+    margin: 0;
+}
+
+.btn-container {
+    margin-top: 25px;
+}
+
+.btn-proyect {
+    width: 105px;
+    height: 51px;
+    padding: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn1 {
+    background: white;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+.btn2 {
+    background: #2A7AE4;
+    color: white;
+    margin-left: 5px;
+    border: 1px solid transparent;
+}
+
+.contacto {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAF2FD;
+    padding: 3rem 1rem;
+}
+
+.contacto img {
+    width: 40%;
+
+}
+
+form {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+input {
+    height: 56px;
+    border: thin solid transparent;
+    padding-left: 15px;
+}
+
+textarea {
+    border: thin solid transparent;
+    padding: 15px;
+}
+
+.btn {
+    background-color: #2A7AE4;
+    color: white;
+    border: thin solid transparent;
+    width: 144px;
+    height: 51px;
+}
+
+#errorNombre,
+#errorEmail,
+#errorAsunto,
+#errorMensaje {
+    color: red;
+    padding: 5px;
+}
+
+
+.rodapie {
+    padding: 25px 0;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+@media(max-width:768px) {
+
+    .header-logo {
+        width: 300px;
+    }
+
+    .header-list__item {
+        display: none;
+    }
+
+    .header-contact {
+        display: block;
+    }
+
+    .container-hero__info h1 {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+
+    .container-hero__info p {
+        margin: 10px 0px;
+    }
+
+    .container-hero__image img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .sobre-mi {
+        padding: 32px;
+    }
+
+    .sobre-mi p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .items-container,
+    .container-hobbies,
+    .formacion-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 30%);
+        gap: 3%;
+    }
+
+    .formacion-item {
+        width: 100%;
+    }
+
+    .formacion-item__image {
+        width: 80%;
+    }
+
+    .proyectos {
+        width: 100%;
+        margin: 50px auto 0;
+        padding: 0;
+    }
+
+    .container-proyecto {
+        display: block;
+    }
+
+    .proyecto-imagen {
+        width: 100%;
+    }
+
+    .btn-container {
+        height: 40px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .btn-proyect {
+        padding: 8px 12px;
+        font-size: 12px;
+        margin: 0;
+        width: 80px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .btn1 {
+        margin-right: 10px;
+    }
+
+    .encriptador {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .encriptador-contenido {
+        order: 2;
+    }
+
+
+    .encriptador-imagen {
+        order: 1;
+    }
+
+    .contacto {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacto img {
+        display: none;
+    }
+
+    #form-contact {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+
+    .btn {
+        width: 133px;
+        height: 40px;
+    }
+}
+
+@media(max-width:450px) {
+    .header {
+        width: 90%;
+        margin: 0 auto;
+        height: 56px;
+        padding: 16px;
+    }
+
+    .header-logo {
+        width: 45%;
+    }
+
+    .header-logo__text {
+        font-size: 16px;
+    }
+
+    .header-list {
+        width: 45%;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .container-hero {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container-hero__info {
+        order: 2;
+        width: 100%;
+    }
+
+    .container-hero__image {
+        order: 1;
+    }
+
+    .container-hero__info h1 {
+        font-size: 22px;
+    }
+
+    .container-hero__info p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .sobre-mi {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .skills,
+    .hobbies {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .items-container,
+    .container-hobbies {
+        grid-template-columns: repeat(auto-fit, 50%);
+        gap: 0;
+    }
+
+    .skills-item,
+    .hobbies-item {
+        height: 118px;
+        width: 156px;
+    }
+
+    .formacion {
+        padding-top: 32px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .formacion-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formacion-item {
+        width: 296px;
+        margin: 0 auto 20px;
+    }
+
+    .formacion-item h4 {
+        margin: 0;
+    }
+
+    .proyectos {
+        margin: 0;
+    }
+
+    .container-proyecto {
+        width: 100%;
+        margin: 35px 0;
+    }
+
+}
